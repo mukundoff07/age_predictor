@@ -1,9 +1,6 @@
 # streamlit run app.py --server.port 9993
 
 import streamlit as st
-import pandas as pd
-import numpy as np
-
 
 st.title("Age Predictor")
 
@@ -35,6 +32,9 @@ if birthday_celebration == "No":
     # st.write(born_age2) 
     final_step1 = str(new_number4 - born_age2)
     st.write("Your Age is ", final_step1[1:3])
+
+
+    
 
 
     
